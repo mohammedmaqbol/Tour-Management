@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from './../Header/Header'
-import Routers from '../../router/Routers'
-import Footer from '../Footer/Footer'
 
-export const Layout = () => {
+import Header from '../Header/Header'
+import Routers from '../../routes/Router'
+import Footer from '../Footer/Footer'
+function Layout() {
   return (
     <>
        <Header />
@@ -12,3 +12,5 @@ export const Layout = () => {
     </>
   )
 }
+
+export default Layout
